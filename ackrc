@@ -1,0 +1,21 @@
+# always sort
+--sort-files
+
+# ignore dirs
+--ignore-dir=.tox
+--ignore-dir=node_modules
+--ignore-dir=bower_components
+
+# ignore files
+--ignore-file=ext:po,mo
+
+# additional file types
+--type-add=ReST:ext:rst
+--type-add=conf:ext:conf
+--type-add=erb:ext:erb
+--type-add=ini:ext:ini
+--type-add=json:ext:json
+--type-add=less:ext:less
+--type-add=log:ext:log
+--type-add=puppet:ext:pp
+--type-add=sass:ext:scss
