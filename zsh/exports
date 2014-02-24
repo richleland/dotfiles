@@ -1,0 +1,2 @@
+export EDITOR="mvim -v"
+export GIT_EDITOR="mvim -v"

@@ -20,3 +20,9 @@ source $ZSH/oh-my-zsh.sh
 setopt autolist
 setopt correct
 unsetopt cdablevars # this REALLY slowed down oh-my-zsh for me
+
+# exports ---------------------------------------------------------------------
+source $HOME/my/dotfiles/zsh/exports
+
+# aliases ---------------------------------------------------------------------
+source $HOME/my/dotfiles/zsh/aliases

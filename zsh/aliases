@@ -1,0 +1,32 @@
+# macvim on the command line
+alias vim="mvim -v"
+
+# apg password generator
+alias apg="apg -m 12 -x 12 -M SNCL"
+
+# git aliases
+alias gb="git branch"
+alias gba="git branch -a"
+alias gc="git commit -v"
+alias gd="git difftool"
+alias gl="git pull"
+alias gp="git push"
+alias gst="git status"
+
+# file deletion
+alias dorig='find . -type f -name "*.orig" -exec rm -rf {} \;'
+alias dpyc='find . -type f -name "*.pyc" -exec rm -rf {} \;'
+alias dsvn="find . -name ".svn" -print0 | xargs -0 rm -rf"
+alias dvim='find . -type f -name "*.un~" -exec rm -rf {} \;'
+
+# python Debug local mail server
+alias pymail="python -m smtpd -n -c DebuggingServer localhost:1025"
+
+# renaming file extensions
+alias lower_jpg='for i in *.JPG; do mv "$i" "${i%.JPG}.jpg"; done'
+
+# tree flags
+alias tree="tree -C --dirsfirst -I '*.pyc'"
+
+# irb flags
+alias irb="irb -r irb/completion"
