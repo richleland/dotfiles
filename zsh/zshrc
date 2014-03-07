@@ -23,3 +23,6 @@ source $HOME/my/dotfiles/zsh/exports
 
 # aliases ---------------------------------------------------------------------
 source $HOME/my/dotfiles/zsh/aliases
+
+# tmuxifier -------------------------------------------------------------------
+eval "$(tmuxifier init -)"

@@ -1,2 +1,4 @@
 export EDITOR="mvim -v"
 export GIT_EDITOR="mvim -v"
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts"
