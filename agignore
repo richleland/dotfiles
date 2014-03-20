@@ -1,0 +1,6 @@
+*.mo
+*.po
+.tox
+bower_components
+coverage
+node_modules
