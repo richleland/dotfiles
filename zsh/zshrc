@@ -26,3 +26,6 @@ source $HOME/my/dotfiles/zsh/aliases
 
 # tmuxifier -------------------------------------------------------------------
 eval "$(tmuxifier init -)"
+
+# autoenv ---------------------------------------------------------------------
+source `brew --prefix`/opt/autoenv/activate.sh
