@@ -28,4 +28,9 @@ source $HOME/my/dotfiles/zsh/aliases
 eval "$(tmuxifier init -)"
 
 # autoenv ---------------------------------------------------------------------
-source `brew --prefix`/opt/autoenv/activate.sh
+AUTOENV_FILE=`brew --prefix`/opt/autoenv/activate.sh
+[ -f $AUTOENV_FILE ] && source $AUTOENV_FILE
+
+# virtualenvwrapper -----------------------------------------------------------
+VIRTUALENVWRAPPER_FILE=/usr/local/bin/virtualenvwrapper.sh
+[ -f $VIRTUALENVWRAPPER_FILE ] && source $VIRTUALENVWRAPPER_FILE

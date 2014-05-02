@@ -3,3 +3,4 @@ export GIT_EDITOR="vi"
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts"
 export CLOSURE_PATH=`brew --prefix closure-compiler`/libexec
+export WORKON_HOME="$HOME/.virtualenvs"
