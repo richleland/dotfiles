@@ -1,5 +1,5 @@
-export EDITOR="vi"
-export GIT_EDITOR="vi"
+export EDITOR="vim"
+export GIT_EDITOR="vim"
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts"
 export CLOSURE_PATH=`brew --prefix closure-compiler`/libexec
