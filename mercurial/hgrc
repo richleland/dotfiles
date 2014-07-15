@@ -1,7 +1,7 @@
 %include ~/.hgrc.d/$USER.rc
 
 [ui]
-merge = Kaleidoscope
+#merge = Kaleidoscope
 ignore = ~/.hgignore_global
 
 [defaults]
@@ -21,5 +21,5 @@ cmd.ksdiff = /usr/local/bin/ksdiff
 opts.ksdiff = --changeset --wait --filelist
 
 [merge-tools]
-Kaleidoscope.executable = /usr/local/bin/ksdiff
-Kaleidoscope.args = --merge --output $output --base $base -- $local $other
+#Kaleidoscope.executable = /usr/local/bin/ksdiff
+#Kaleidoscope.args = --merge --output $output --base $base -- $local $other
