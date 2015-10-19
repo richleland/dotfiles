@@ -1,6 +1,8 @@
 export EDITOR="vim"
 export GIT_EDITOR="vim"
-export PATH="$HOME/.tmuxifier/bin:$PATH"
+export GOPATH="$HOME/go"
+export PATH="$HOME/.composer/vendor/bin/:$GOPATH/bin:$HOME/pebble-dev/PebbleSDK-latest/bin:$HOME/.tmuxifier/bin:$PATH"
 export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts"
 export CLOSURE_PATH=`brew --prefix closure-compiler`/libexec
 export WORKON_HOME="$HOME/.virtualenvs"
+export ANDROID_HOME=/opt/boxen/homebrew/opt/android-sdk
