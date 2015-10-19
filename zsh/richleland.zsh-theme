@@ -127,6 +127,11 @@ prompt_dir() {
   prompt_segment yellow black '%~'
 }
 
+# Datetime: current date/time
+prompt_datetime() {
+  prompt_segment black yellow '%D{%Y-%m-%d %H:%M}'
+}
+
 # Host: hostname
 prompt_host() {
   prompt_segment black yellow '%m'
@@ -169,7 +174,7 @@ build_prompt() {
 ## right prompt
 right_prompt() {
   RETVAL=$?
-  prompt_host
+  prompt_datetime
   #prompt_end
 }
 
