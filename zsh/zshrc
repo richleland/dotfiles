@@ -32,5 +32,8 @@ AUTOENV_FILE=`brew --prefix`/opt/autoenv/activate.sh
 [ -f $AUTOENV_FILE ] && source $AUTOENV_FILE
 
 # virtualenvwrapper -----------------------------------------------------------
-VIRTUALENVWRAPPER_FILE=/usr/local/bin/virtualenvwrapper.sh
+VIRTUALENVWRAPPER_FILE=`brew --prefix`/bin/virtualenvwrapper.sh
 [ -f $VIRTUALENVWRAPPER_FILE ] && source $VIRTUALENVWRAPPER_FILE
+
+# added by travis gem
+[ -f /Users/rleland/.travis/travis.sh ] && source /Users/rleland/.travis/travis.sh
