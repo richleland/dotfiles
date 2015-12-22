@@ -1,4 +1,4 @@
 # boxen -----------------------------------------------------------------------
 # sourcing this here, because it sets paths, and using ~/.zshenv makes all the
 # paths work properly in vim
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+#[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
