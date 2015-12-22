@@ -1,8 +1,10 @@
 %include ~/.hgrc.d/$USER.rc
+%include /hgrc.d/msys-mercurial.rc
 
 [ui]
 #merge = Kaleidoscope
 ignore = ~/.hgignore_global
+merge=internal:merge
 
 [defaults]
 addremove = --similarity 100
@@ -11,7 +13,7 @@ addremove = --similarity 100
 color =
 pager =
 hgext.extdiff =
-hgsubversion = ~/hgsubversion/hgsubversion
+#hgsubversion = ~/hgsubversion/hgsubversion
 hggit =
 
 [pager]
