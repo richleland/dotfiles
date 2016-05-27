@@ -4,6 +4,9 @@ alias vim="mvim -v"
 # apg password generator
 alias apg="apg -m 12 -x 12 -M SNCL"
 
+# javascript
+alias gulp="nocorrect gulp"
+
 # git aliases
 alias gb="git branch"
 alias gba="git branch -a"

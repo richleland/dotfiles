@@ -24,6 +24,10 @@ unsetopt cdablevars # this REALLY slowed down oh-my-zsh for me
 # exports ---------------------------------------------------------------------
 source $HOME/my/dotfiles/zsh/exports
 
+# private exports -------------------------------------------------------------
+PRIVATE_EXPORTS_FILE=$HOME/my/dotfiles/zsh/private
+[ -f $PRIVATE_EXPORTS_FILE ] && source $PRIVATE_EXPORTS_FILE
+
 # aliases ---------------------------------------------------------------------
 source $HOME/my/dotfiles/zsh/aliases
 
@@ -38,6 +42,9 @@ AUTOENV_FILE=`brew --prefix`/opt/autoenv/activate.sh
 VIRTUALENVWRAPPER_FILE=`brew --prefix`/bin/virtualenvwrapper.sh
 [ -f $VIRTUALENVWRAPPER_FILE ] && source $VIRTUALENVWRAPPER_FILE
 
+# pyenv -----------------------------------------------------------------------
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
 # added by travis gem
 [ -f /Users/rleland/.travis/travis.sh ] && source /Users/rleland/.travis/travis.sh
 
@@ -46,4 +53,3 @@ PERL5LIB="/Users/rleland/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5L
 PERL_LOCAL_LIB_ROOT="/Users/rleland/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/Users/rleland/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/rleland/perl5"; export PERL_MM_OPT;
-

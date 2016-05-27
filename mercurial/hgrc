@@ -14,7 +14,7 @@ color =
 pager =
 hgext.extdiff =
 #hgsubversion = ~/hgsubversion/hgsubversion
-hggit =
+#hggit =
 
 [pager]
 pager = LESS='FRX' less
