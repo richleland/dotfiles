@@ -11,7 +11,7 @@ ZSH_THEME="richleland"
 # zsh plugins -----------------------------------------------------------------
 # Which plugins would you like to load? (~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew git git-flow knife mercurial pip python)
+plugins=(brew git git-flow mercurial pip python)
 
 # get this party started ------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
