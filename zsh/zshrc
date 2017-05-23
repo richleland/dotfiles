@@ -6,7 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 
 # zsh theme -------------------------------------------------------------------
 # Set the name of the theme to load (~/.oh-my-zsh/themes/*)
-ZSH_THEME="richleland"
+ZSH_THEME="spaceship"
 
 # zsh plugins -----------------------------------------------------------------
 # Which plugins would you like to load? (~/.oh-my-zsh/plugins/*)
