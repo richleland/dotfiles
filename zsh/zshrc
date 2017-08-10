@@ -11,10 +11,13 @@ ZSH_THEME="spaceship"
 # zsh plugins -----------------------------------------------------------------
 # Which plugins would you like to load? (~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew git git-flow mercurial pip python)
+plugins=(brew docker git git-flow mercurial pip python)
 
 # get this party started ------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
+
+# spaceship theme settings ----------------------------------------------------
+source $HOME/my/dotfiles/zsh/spaceship-config
 
 # zsh options -----------------------------------------------------------------
 setopt autolist
@@ -63,3 +66,6 @@ fi
 if [ -f /Users/rleland/Downloads/google-cloud-sdk/completion.zsh.inc ]; then
   source '/Users/rleland/Downloads/google-cloud-sdk/completion.zsh.inc'
 fi
+
+
+source "/Users/rleland/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
