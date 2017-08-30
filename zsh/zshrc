@@ -34,6 +34,9 @@ source $HOME/my/dotfiles/zsh/aliases
 # tmuxifier -------------------------------------------------------------------
 if which tmuxifier > /dev/null; then eval "$(tmuxifier init -)"; fi
 
+# nodenv ----------------------------------------------------------------------
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+
 # autoenv ---------------------------------------------------------------------
 AUTOENV_FILE=`brew --prefix`/opt/autoenv/activate.sh
 [ -f $AUTOENV_FILE ] && source $AUTOENV_FILE
