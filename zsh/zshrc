@@ -25,14 +25,14 @@ unsetopt cdablevars # this REALLY slowed down oh-my-zsh for me
 source $HOME/my/dotfiles/zsh/exports
 
 # private exports -------------------------------------------------------------
-PRIVATE_EXPORTS_FILE=$HOME/my/dotfiles/zsh/private
-[ -f $PRIVATE_EXPORTS_FILE ] && source $PRIVATE_EXPORTS_FILE
+PRIVATE_ZSH_FILE=$HOME/my/dotfiles/zsh/private
+[ -f $PRIVATE_ZSH_FILE ] && source $PRIVATE_ZSH_FILE
 
 # aliases ---------------------------------------------------------------------
 source $HOME/my/dotfiles/zsh/aliases
 
 # tmuxifier -------------------------------------------------------------------
-eval "$(tmuxifier init -)"
+if which tmuxifier > /dev/null; then eval "$(tmuxifier init -)"; fi
 
 # autoenv ---------------------------------------------------------------------
 AUTOENV_FILE=`brew --prefix`/opt/autoenv/activate.sh
