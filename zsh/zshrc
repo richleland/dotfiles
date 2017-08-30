@@ -61,5 +61,8 @@ if [ -f /Users/rleland/Downloads/google-cloud-sdk/completion.zsh.inc ]; then
   source '/Users/rleland/Downloads/google-cloud-sdk/completion.zsh.inc'
 fi
 
-
+# SPACESHIP! ------------------------------------------------------------------
 source "/Users/rleland/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+
+# oh hai hamurai --------------------------------------------------------------
+[ -f /opt/hamurai/env.sh ] && source /opt/hamurai/env.sh
