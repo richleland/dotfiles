@@ -13,8 +13,6 @@ addremove = --similarity 100
 color =
 pager =
 hgext.extdiff =
-#hgsubversion = ~/hgsubversion/hgsubversion
-hggit =
 
 [pager]
 pager = LESS='FRX' less
