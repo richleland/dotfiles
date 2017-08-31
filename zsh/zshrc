@@ -41,10 +41,6 @@ if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 AUTOENV_FILE=`brew --prefix`/opt/autoenv/activate.sh
 [ -f $AUTOENV_FILE ] && source $AUTOENV_FILE
 
-# virtualenvwrapper -----------------------------------------------------------
-VIRTUALENVWRAPPER_FILE=`brew --prefix`/bin/virtualenvwrapper.sh
-[ -f $VIRTUALENVWRAPPER_FILE ] && source $VIRTUALENVWRAPPER_FILE
-
 # pyenv -----------------------------------------------------------------------
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
