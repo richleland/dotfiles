@@ -1,4 +1,5 @@
 # macvim on the command line
+alias vi="mvim -v"
 alias vim="mvim -v"
 
 # apg password generator
