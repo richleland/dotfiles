@@ -34,3 +34,6 @@ alias tree="tree -C --dirsfirst -I '*.pyc'"
 
 # irb flags
 alias irb="irb -r irb/completion"
+
+# make opening sequel pro easier
+alias spro="open -a /Applications/Sequel\ Pro.app/Contents/MacOS/Sequel\ Pro"
