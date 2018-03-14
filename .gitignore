@@ -1,1 +1,4 @@
+fish/completions
+fish/fishd.*
+fish/functions
 zsh/private
