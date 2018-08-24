@@ -3,3 +3,4 @@ fisherman/git_porcelain
 fisherman/git_util
 fisherman/humanize_duration
 jethrokuan/jetty
+fisherman/nodenv

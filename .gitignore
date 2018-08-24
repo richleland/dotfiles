@@ -1,4 +1,5 @@
 fish/completions
+fish/conf.d
 fish/fish_colors
 fish/fishd.*
 fish/functions
