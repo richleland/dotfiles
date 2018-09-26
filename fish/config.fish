@@ -1,8 +1,8 @@
 ###############################################################################
 # set some variables
 ###############################################################################
-set -x EDITOR vim
-set -x GIT_EDITOR vim
+set -x EDITOR "mvim -v"
+set -x GIT_EDITOR "mvim -v"
 set -x PATH $HOME/.composer/vendor/bin ./node_modules/.bin $HOME/src/oss/gitplus/commands /usr/local/opt/libxml2/bin /usr/local/opt/python/libexec/bin /usr/local/sbin $PATH
 set -x VIRTUALENV_PYTHON python3
 set -x PROJECT_HOME $HOME/src/projects
