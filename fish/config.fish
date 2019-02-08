@@ -3,7 +3,7 @@
 ###############################################################################
 set -x EDITOR "mvim -v"
 set -x GIT_EDITOR "mvim -v"
-set -x PATH $HOME/.cargo/bin $HOME/.composer/vendor/bin ./node_modules/.bin $HOME/src/oss/gitplus/commands /usr/local/opt/libxml2/bin /usr/local/opt/python/libexec/bin /usr/local/sbin $PATH
+set -x PATH $HOME/.cargo/bin $HOME/.composer/vendor/bin /usr/local/opt/php@7.2/bin ./node_modules/.bin $HOME/src/oss/gitplus/commands /usr/local/opt/libxml2/bin /usr/local/opt/python/libexec/bin /usr/local/sbin $PATH
 set -x VIRTUALENV_PYTHON python3
 set -x PROJECT_HOME $HOME/src/projects
 set -x LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN y
