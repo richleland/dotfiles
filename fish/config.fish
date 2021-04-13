@@ -19,6 +19,12 @@ alias tplus="open -a /Applications/TablePlus.app/Contents/MacOS/TablePlus"
 
 
 ###############################################################################
+# activate nodenv
+###############################################################################
+status --is-interactive; and source (nodenv init -|psub)
+
+
+###############################################################################
 # activate pyenv
 ###############################################################################
 status --is-interactive; and pyenv init - | source
