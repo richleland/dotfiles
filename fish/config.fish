@@ -15,6 +15,7 @@ set -x PIPENV_VENV_IN_PROJECT y
 ###############################################################################
 alias vi="mvim -v"
 alias vim="mvim -v"
+alias tplus="open -a /Applications/TablePlus.app/Contents/MacOS/TablePlus"
 
 
 ###############################################################################
