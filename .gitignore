@@ -5,3 +5,4 @@ fish/fishd.*
 fish/functions
 fish/fish_variables
 zsh/private
+fish/custom/quorum.fish
